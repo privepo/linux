@@ -1,25 +1,27 @@
-LINUX [GIT] commit 4d803191: Update fstab, apt configuration and sudoers.
+LINUX [GIT] commit 13fe387b: Update at 20120213.
 
 
 Path  : git
-Date  : 2011-09-25 22:47:26 +0800
-Author: Eotect Nahn
-Commit: 4d803191af6280078256cf6a17efdde827ab5351
+Date  : 2012-02-13 21:24:04 +0800
+Author: Eoetct Nahn
+Commit: 13fe387b25a8b531f1d84c787f50ea19ecbc11e9
 
-    Update fstab, apt configuration and sudoers.
+    Update at 20120213.
 
 
 
- etc/adjtime                  |    4 +-
- etc/apt/preferences.testing  |    4 +
- etc/apt/sources.list.testing |   47 +-
- etc/fstab                    |   19 +-
- etc/group                    |   10 +-
- etc/passwd                   |   10 +-
- etc/sudoers                  |   21 +-
- var/lib/mpd/state            | 1988 ---------
- var/lib/mpd/tag_cache        | 9350 ++++++++++++++++++++++--------------------
- 9 files changed, 4894 insertions(+), 6559 deletions(-)
+ etc/X0.hosts                          |    3 +
+ etc/X1.hosts                          |    2 +-
+ etc/adjtime                           |    4 +-
+ etc/apt/sources.list.testing          |   66 +-
+ etc/fstab                             |   10 +-
+ etc/group                             |    1 -
+ etc/hosts                             | 1412 +++++++++++++++++----------------
+ etc/lighttpd/conf-enabled/10-cgi.conf |    2 +
+ etc/lighttpd/lighttpd.conf            |  174 +----
+ etc/mpd.conf                          |    4 +-
+ etc/samba/smb.conf                    |   75 ++-
+ 11 files changed, 859 insertions(+), 894 deletions(-)
 
 ================================================================================
 
